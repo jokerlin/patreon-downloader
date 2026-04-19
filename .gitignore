@@ -1,8 +1,10 @@
 # Videos
 videos/
 
-# Password
+# Password & URLs (contain personal data)
 .patreon-password
+urls/*.txt
+!urls/example.txt
 
 # macOS
 .DS_Store
