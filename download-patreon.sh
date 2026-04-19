@@ -3,10 +3,9 @@
 # 依赖: yt-dlp, curl_cffi (pip install curl_cffi)
 #
 # 用法:
-#   单个视频:  ./download-patreon.sh <url>
-#   批量下载:  ./download-patreon.sh -f urls.txt
-#   指定目录:  ./download-patreon.sh -o /path/to/dir <url>
-#   指定密码:  ./download-patreon.sh -p mypassword <url>
+#   单个视频:  ./download-patreon.sh -o videos/2026-04-19 <url>
+#   批量下载:  ./download-patreon.sh -f urls/2026-04-19.txt -o videos/2026-04-19
+#   指定密码:  ./download-patreon.sh -p mypassword -o videos/2026-04-19 <url>
 #
 # 密码优先级: -p 参数 > .patreon-password 文件 > 无密码(走 SproutVideo 直链)
 #
