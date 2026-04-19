@@ -1,0 +1,11 @@
+# Videos
+videos/
+
+# Password
+.patreon-password
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
